@@ -1,0 +1,23 @@
+{
+    "name": "raisulhridoy/laravel-2fa",
+    "description": "Laravel 2FA is a PHP implementation of the Google Two-Factor Authentication Module, supporting the HMAC-Based One-time Password (HOTP) algorithm specified in RFC 4226 and the Time-based One-time Password (TOTP) algorithm specified in RFC 6238.",
+    "type": "library",
+    "require": {
+        "bacon/bacon-qr-code": "2.0.8"
+    },
+    "require-dev": {
+        "bacon/bacon-qr-code": "2.0.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Raisulhridoy\\Laravel2fa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hridoyraisul"
+        }
+    ],
+    "minimum-stability": "dev"
+}
